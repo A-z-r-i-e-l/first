@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dynamic</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <h1>Dynamic</h1>
+        <h2>{{greeting}}</h2>
+        <h2>sportlist: </h2>
+        {% for sport in sportlist %}
+        <p>{{sport}}</p>
+        {% endfor %}
+        <p id="sports">These are some sports I like</p>
+    </body>
+</html>

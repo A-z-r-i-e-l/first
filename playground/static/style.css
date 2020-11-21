@@ -1,0 +1,17 @@
+body {
+    background: green;
+}
+
+#heading {
+    color: rgba(255, 0, 0, 0.493);
+    text-align: center; 
+}
+
+#text {
+    text-align: center;
+}
+
+#sports {
+    color: rgba(255, 0, 0, 0.534);
+    font-size: 12;
+}
